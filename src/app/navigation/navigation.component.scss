@@ -1,0 +1,12 @@
+nav {
+    background-color: darkcyan;
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    li {
+        margin-right: 10px;
+    }
+  }
+}
