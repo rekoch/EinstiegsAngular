@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { LinkComponent } from './shared/components/navigation-link/link.component';
+import { ButtonComponent } from './shared/components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { LinkComponent } from './shared/components/navigation-link/link.componen
     AboutComponent,
     NavigationComponent,
     LinkComponent,
+    ButtonComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

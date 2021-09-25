@@ -12,4 +12,8 @@ export class AboutComponent implements OnInit {
   ngOnInit() {
   }
 
+  handleButtonClick() {
+    console.log('Button was clicked');
+  }
+
 }
